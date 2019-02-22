@@ -53,7 +53,7 @@ public class SudokuAccessibility extends AccessibilityService {
                     i++;
                 }
                 tag = !tag;
-                mHandler.sendEmptyMessageDelayed(0, 25);
+                mHandler.sendEmptyMessageDelayed(0, 10);
             } else {
                 i = 0;
                 tag = true;
